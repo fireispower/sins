@@ -77,9 +77,9 @@ class KigyoINIT:
         self.WALL_API: str = self.parser.get('WALL_API', None)
         self.LASTFM_API_KEY: str = self.parser.get('LASTFM_API_KEY', None)
         self.CF_API_KEY: str =  self.parser.get("CF_API_KEY", None)
-        self.bot_id = 0 #placeholder
+        self.bot_id = 6412599320 #placeholder
         self.bot_name = "Kigyo" #placeholder
-        self.bot_username = "KigyoRobot" #placeholder
+        self.bot_username = "Invictustifbot" #placeholder
         self.DEBUG: bool = self.parser.getboolean("IS_DEBUG", False)
         self.DROP_UPDATES: bool = self.parser.getboolean("DROP_UPDATES", True)
         self.BOT_API_URL: str = self.parser.get('BOT_API_URL', "https://api.telegram.org/bot")
